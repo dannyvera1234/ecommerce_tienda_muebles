@@ -437,3 +437,7 @@ form legend{
   justify-content: center;
   
 }
+.campo .btn:hover{
+  background-color: #769c02;
+  cursor: pointer;
+}
