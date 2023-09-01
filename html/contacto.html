@@ -1,67 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/normalizador.css">
-    <link rel="stylesheet" href="./../css/ecommerce.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/normalizador.css" />
+    <link rel="stylesheet" href="./../css/ecommerce.css" />
     <title>Tienda de Muebles</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- header encabezado -->
     <header class="titulo_principal">
-        <h1>Tienda De <span>Muebles</span> </h1>
+      <h1>Tienda De <span>Muebles</span></h1>
     </header>
-    <hr>
+    <hr />
     <!-- nav barra de navegacion -->
     <nav class="navegacion">
-        <a href="../ecommerce.html">Inicio</a>
-        <a href="nosotro.html">Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galeria</a>
-        <a href="contacto.html">Contacto</a>
+      <a href="../ecommerce.html">Inicio</a>
+      <a href="nosotro.html">Nosotros</a>
+      <a href="tienda.html">Tienda</a>
+      <a href="blog.html">Blog</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="contacto.html">Contacto</a>
     </nav>
+
+    <main>
+      <section class="contacto">
+        <h2 class="titulo">Contacto</h2>
+        <form action="">
+          <fieldset>
+            <legend>Tus Datos</legend>
+            <div class="campo">
+              <label for="nombre"> Nombre</label>
+              <input class="input"  id="nombre" type="text" placeholder="Tu nombre" />
+            </div>
+            <div class="campo">
+              <label for="asunto">Asunto</label>
+              <input  class="input" id="asunto" type="text" placeholder="Tu Asunto" />
+            </div>
+            <div class="campo">
+              <label for="email">Email</label>
+              <input  class="input" id="email" type="email" placeholder="Tu Email" />
+            </div>
+            <div class="campo">
+              <label for="telefono">Telefono</label>
+              <input  class="input" id="telefono" type="tel" placeholder="Tu Telefono" />
+            </div>
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="input"
+                name=""
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Tu Mensaje"
+              ></textarea>
+            </div>
+            <div class="campo">
+              <input class="btn" type="submit" value="Enviar" />
+            </div>
+            
+          </fieldset>
+        </form>
+      </section>
+    </main>
 
     <!-- footer pies de pagina  -->
     <footer class="footer">
-        <div class="container_footer">
-          <div>
-            <h3>Categoria</h3>
-            <nav>
-              <a href="">Cocina</a>
-              <a href="">Oficina</a>
-              <a href="">Jardin</a>
-              <a href="">Cochera</a>
-              <a href="">Dormitorios</a>
-            </nav>
-          </div>
-          <div>
-            <h3>Sobre Nosotros</h3>
-            <nav>
-              <a href="">Nuestra Historia</a>
-              <a href="">Mision, Vision y Valores</a>
-              <a href="">Carreras</a>
-              <a href="">Politica de Privacidad</a>
-              <a href="">Terminos del Servicio</a>
-            </nav>
-          </div>
-          <div>
-            <h3>Soporte</h3>
-            <nav>
-              <a href="">Preguntas Frecuentes</a>
-              <a href="">Ayuda en Linea</a>
-              <a href="">Confianza y Seguridad</a>
-            </nav>
-          </div>
+      <div class="container_footer">
+        <div>
+          <h3>Categoria</h3>
+          <nav>
+            <a href="">Cocina</a>
+            <a href="">Oficina</a>
+            <a href="">Jardin</a>
+            <a href="">Cochera</a>
+            <a href="">Dormitorios</a>
+          </nav>
         </div>
-  
-        <p>Todos los derechos Resevados, Tienda Muebles</p>
-      </footer>
+        <div>
+          <h3>Sobre Nosotros</h3>
+          <nav>
+            <a href="">Nuestra Historia</a>
+            <a href="">Mision, Vision y Valores</a>
+            <a href="">Carreras</a>
+            <a href="">Politica de Privacidad</a>
+            <a href="">Terminos del Servicio</a>
+          </nav>
+        </div>
+        <div>
+          <h3>Soporte</h3>
+          <nav>
+            <a href="">Preguntas Frecuentes</a>
+            <a href="">Ayuda en Linea</a>
+            <a href="">Confianza y Seguridad</a>
+          </nav>
+        </div>
+      </div>
 
-</body>
-
+      <p>Todos los derechos Resevados, Tienda Muebles</p>
+    </footer>
+  </body>
 </html>

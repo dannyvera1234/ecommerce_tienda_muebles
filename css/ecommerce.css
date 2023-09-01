@@ -382,3 +382,58 @@ aside a {
   height: 25rem;
   object-fit: cover;
 }
+/* contacto */
+
+.contacto {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 2rem;
+}
+form{
+  max-width: 60rem;
+  margin: 0 auto;
+}
+form fieldset{
+ margin-bottom: 2rem;
+}
+form legend{
+  background-color: #005485;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+.campo{
+ display: flex;
+  margin-bottom: 1rem;
+  /* align-items: center; */
+ 
+
+}
+.campo label{
+  flex-basis: 10rem;
+}
+.campo .input{
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #e1e1e1;
+}
+.campo .btn{
+  background-color: #8cbc00;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  border: none;
+  padding: 1rem;
+  transition: background-color 0.3s ease-out;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  
+}
